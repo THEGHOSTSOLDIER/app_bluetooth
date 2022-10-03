@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/sensor"
+        style="@style/sensor_title"
+        android:text="Sensor name" />
+
+    <TextView
+        android:id="@+id/type"
+        style="@style/sensor_properties"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensor Type" />
+
+    <TextView
+        android:id="@+id/vendor"
+        android:text="vendor"
+        style="@style/sensor_properties" />
+
+    <TextView
+        android:id="@+id/resolution"
+        android:text="resolution"
+        style="@style/sensor_properties"/>
+
+    <TextView
+        android:id="@+id/power"
+        android:text="power"
+        style="@style/sensor_properties"/>
+
+    <TextView
+        android:id="@+id/version"
+        style="@style/sensor_properties"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="version" />
+
+</LinearLayout>
